@@ -164,11 +164,11 @@ body {
             top: 0px;
             left: 0px;
             display: none;
-            overflow: hidden; }
+            overflow: hidden;
+            text-align: center; }
             .container-fluid .second-container .container .cards .card .full-image img {
-              max-width: 60%;
-              height: auto;
-              vertical-align: middle; }
+              max-width: 100%;
+              height: 100%; }
             .container-fluid .second-container .container .cards .card .full-image.active {
               display: block !important; }
           .container-fluid .second-container .container .cards .card .title {
