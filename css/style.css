@@ -182,3 +182,62 @@ body {
             .container-fluid .second-container .container .cards .card:hover .full-image {
               display: block !important;
               background-color: black; }
+  .container-fluid .third-container {
+    height: 840px; }
+    .container-fluid .third-container .container .cards {
+      display: flex;
+      /*margin-top: 40px;*/
+      margin: 40px -20px;
+      align-items: center; }
+      .container-fluid .third-container .container .cards .card {
+        width: 380px;
+        height: 600px;
+        margin: 0 20px; }
+        .container-fluid .third-container .container .cards .card .avatar {
+          transition: transform .2s;
+          padding: 25px;
+          width: 100%;
+          height: 420px; }
+          .container-fluid .third-container .container .cards .card .avatar .figure {
+            margin: 0;
+            max-width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto; }
+            .container-fluid .third-container .container .cards .card .avatar .figure img {
+              width: 100%;
+              height: auto; }
+        .container-fluid .third-container .container .cards .card .content {
+          padding: 10px;
+          text-align: center; }
+          .container-fluid .third-container .container .cards .card .content > * {
+            transition: all 0.25s ease-in-out 0s; }
+          .container-fluid .third-container .container .cards .card .content .name {
+            font-size: 20px;
+            color: #000021; }
+          .container-fluid .third-container .container .cards .card .content .designation {
+            color: #2c2945;
+            font-size: 15px;
+            opacity: 1;
+            transform: translateY(8px); }
+          .container-fluid .third-container .container .cards .card .content .description {
+            opacity: 0;
+            transform: translateY(8px); }
+          .container-fluid .third-container .container .cards .card .content .share {
+            opacity: 0;
+            transform: translateY(12px); }
+            .container-fluid .third-container .container .cards .card .content .share > * {
+              padding: 0 5px; }
+        .container-fluid .third-container .container .cards .card:hover .avatar:hover {
+          transform: scale(1.1); }
+        .container-fluid .third-container .container .cards .card:hover .designation {
+          opacity: 0;
+          transform: translateY(-8px); }
+        .container-fluid .third-container .container .cards .card:hover .description {
+          opacity: 1;
+          transform: translateY(-8px); }
+        .container-fluid .third-container .container .cards .card:hover .share {
+          opacity: 1;
+          transform: translateY(0px); }
